@@ -8,11 +8,11 @@ When(/^I search for "([^"]*)"$/) do |search_term|
 end
 
 When(/^I select product on the page$/) do
-  page.first(".loading").click
+  page.all(".loading")[0].click
 end
 
 When(/^I check if the product is showed$/) do
-  expect(page).to have_content 'Samsung'
+  expect(page).to have_content 'TVs'
 end
 
 When(/^I select the product$/) do

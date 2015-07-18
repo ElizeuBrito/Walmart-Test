@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem 'cucumber', '~> 2.0.2'
 gem 'capybara', '~> 2.0.2'

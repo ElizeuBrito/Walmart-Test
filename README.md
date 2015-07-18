@@ -1,12 +1,9 @@
 # Walmart-Test
-Walmart's test to check skills in Cucumber automation
-
-Test
-
+Walmart's test to check skills in Cucumber/Capybara automation
 
 features/
-├── youtube_search.feature
+├── Search_Product.feature
 ├── step_defs
-│ └── steps.rb
+│ └── Search_Product_Steps.rb
 └── support
-└── env.rb
+│ └── env.rb

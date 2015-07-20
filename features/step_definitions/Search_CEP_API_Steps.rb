@@ -1,5 +1,5 @@
 Given(/^I request Correio's API with correct CEP$/) do
-    visit 'http://cep.correiocontrol.com.br/13050120.json'
+    visit 'http://cep.correiocontrol.com.br/13050412.json'
 	
 	Message = "Correct CEP"
 	
